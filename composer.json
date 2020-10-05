@@ -1,0 +1,22 @@
+{
+    "name": "taskinbirtan/laravel-netgsm-sms",
+    "type": "project",
+    "description": "Paket ile kolayca modelinizi entegre edin ve kolayca tekil ya da \u0000o\u0000ul sms g\u0000nderin.",
+    "authors": [
+        {
+            "name": "Birtan Taskin",
+            "email": "taskinbirtan@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "TaskinBirtan\\LaravelNetgsmSms\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TaskinBirtan\\LaravelNetgsmSms\\Tests\\": "tests/"
+        }
+    },
+    "require": {}
+}
